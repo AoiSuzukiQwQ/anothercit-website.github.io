@@ -1,0 +1,97 @@
+@font-face {
+  font-family: websiteFont;
+  src: url(OldNewspaperTypes.ttf);
+}
+
+body {
+    font-size: 15pt;
+    background: linear-gradient(white, antiquewhite) fixed;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+.website-title {
+  text-decoration: underline;
+  font-size: 5vh;
+  font-family: websiteFont;
+  text-align: center;
+  color: black;
+}
+
+.navigation-menu {
+  border-radius: 5vh;
+  color: white;
+  background-color: black;
+  font-size: 2vh;
+  font-family: websiteFont;
+}
+
+.nav-button {
+  font-size: 2vh;
+  display: inline;
+  list-style-type: none;
+  padding: 1vh;
+  text-decoration: none;
+  color: white;
+  display: inline;
+  cursor: pointer;
+}
+
+.nav-button a{
+  text-decoration: none;
+  color: white;
+}
+
+.cit-about {
+  background: none;
+  border-radius: 2vh;
+  border-width: 0.5vh;
+  border-color: black;
+  border-style: solid;
+  margin-top: 5vh;
+  padding-right: 5vh;
+  padding-left: 5vh;
+  font-size: 2vh;
+  text-align: center;
+  font-family: websiteFont;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.button-style {
+  padding: 16px;
+  font-family: websiteFont;
+  font-size: 2vh;
+  background: black;
+  border: none;
+  border-radius: 1vh;
+  color: white;
+  display: block;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.button-style:active {
+  padding: 16px;
+  font-family: websiteFont;
+  font-size: 2vh;
+  background: white;
+  border: none;
+  border-radius: 1vh;
+  color: black;
+  cursor: pointer;
+}
+
+.pack-icon {
+  width: 10vh;
+}
+
+hr {
+  border: 1px dashed black;
+}
+
+.terms-of-use {
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
